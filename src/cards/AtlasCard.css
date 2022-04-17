@@ -16,7 +16,7 @@
 }
 
 .MuiButton-root:hover{
-    border: transparent !important;
+    border: 2px solid rgb(255, 255, 255) !important;
 }
 
 .MuiButton-root{
