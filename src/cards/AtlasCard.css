@@ -1,0 +1,24 @@
+.cardContainer{
+    background-color: #7187D5 !important;
+}
+.cardContent {
+    font-size: 10px !important;
+}
+
+.cardTexts {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    border-radius: 15px !important;
+
+}
+
+.MuiButton-root:hover{
+    border: transparent !important;
+}
+
+.MuiButton-root{
+    text-transform: none !important;
+}
