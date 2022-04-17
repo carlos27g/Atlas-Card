@@ -1,13 +1,9 @@
-.cardContainer{
-    background-color: #7187D5 !important;
-}
-.cardContent {
-    font-size: 10px !important;
+.MuiCard-root{
+    border-radius: 20px !important;
 }
 
-.cardTexts {
-    display: flex;
-    flex-direction: column;
+.cardContainer{
+    background-color: #7187D5 !important;
 }
 
 .btn{
