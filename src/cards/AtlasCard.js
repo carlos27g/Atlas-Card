@@ -13,7 +13,8 @@ import { useState } from "react"
 const AtlasCard = ({ title, urlImage, modalities, cellsInReference, species }) => { 
     const [swapSide, setSwapSide] = useState(true);
     return (
-        <Card sx={{ width: 215, height: 290, }} className={swapSide ? "" : "cardContainer"} onMouseOver={() => setSwapSide(false)} onMouseOut={() => setSwapSide(true)}>
+        <Card sx={{ width: 215, height: 295, }} 
+        className={swapSide ? "" : "cardContainer"} onMouseOver={() => setSwapSide(false)} onMouseOut={() => setSwapSide(true)}>
 
             {swapSide ?
 
@@ -23,8 +24,8 @@ const AtlasCard = ({ title, urlImage, modalities, cellsInReference, species }) =
                     </Typography>
                     <CardMedia
                         component="img"
-                        height="180"
-                        sx={{ width: 180, marginBottom: 1 }}
+                        height="183"
+                        sx={{ width: 183, marginBottom: 1 }}
                         image={urlImage}
                         alt="AtlasCard"
                         align='center'
